@@ -15,17 +15,23 @@
     />
 
     <!-- ! Fontawesome CSS CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- ! External CSS-2 -->
     <link rel="stylesheet" href="style.css" />
 
     <!-- ! External CSS-1 -->
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="responsive.css" />
 
   </head>
   <body>
-    <div class="hero-image">
+    <div class="iletisim">
         <nav>
             <div class="logo-image-wrapper">
                 <a href="index.html">
@@ -44,89 +50,49 @@
                 <li><a href="iletisim.html">İletişim</a></li>
             </ul>
         </nav>
-        <div class="main-text">
-            <h1>Coffee Point</h1>
-            <h3>Keyifli Vakit Geçirmek İsteyenlerin Buluşma Noktası</h3>
-            <button class="btn-design">
-                <a href="#">Menü</a>
-            </button>
-        </div>
-        <div class="whatsapp-icon">
-            <a target="_blank" href="https://www.whatsapp.com/">
-                <i style="color:white" class="fa-brands fa-whatsapp"></i>
-            </a>
-        </div>
-    </div>
 
-    <!-- ! Öne Çıkanlar Bölümü Başlıyor -->
-    <div class="product">
-        <h3>Öne Çıkan Ürünlerimiz</h3>
-        <div class="product-items">
-
-            <div class="item item1">
-                <img width="70px" class="resim" src="img/kahve.jpg" alt="">
-                <div class="overlay">
-                    <h4>Damla Sakızlı Türk Kahvesi</h4>
-                    <p>Fiyat: 90₺</p>
-                </div>
+        <!-- ! İletisim Content -->
+        <div class="iletisim-content">
+            <div class="iletisim-left">
+                <h3>İLETİŞİM</h3>
+                <form>
+                    <input type="text" placeholder="İsim giriniz">
+                    <input type="number" placeholder="Telefon numarası giriniz">
+                    <input type="email" placeholder="Email giriniz">
+                    <textarea name="input" id="input" cols="30" rows="10" placeholder="Mesajınızı buraya giriniz..."></textarea>
+                    <div class="itesim-btn-wrapper">
+                        <button class="iletisim-btn">Gönder</button>
+                    </div>
+                </form>
             </div>
-
-            <div class="item item2">
-                <img width="70px" class="resim" src="img/kahve.jpg" alt="">
-                <div class="overlay">
-                    <h4>Damla Sakızlı Türk Kahvesi</h4>
-                    <p>Fiyat: 90₺</p>
-                </div>
-            </div>
-
-            <div class="item item3">
-                <img width="70px" class="resim" src="img/kahve.jpg" alt="">
-                <div class="overlay">
-                    <h4>Damla Sakızlı Türk Kahvesi</h4>
-                    <p>Fiyat: 90₺</p>
-                </div>
+            <div class="iletisim-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3054.3844224473846!2d26.344000476183748!3d40.044521271501964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b054b85b489349%3A0xece13108253a616e!2sCafe%20Du%20Port!5e0!3m2!1str!2str!4v1726735061598!5m2!1str!2str" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-        <div class="ürünlerimiz-btn">
-            <a href="#">Tümünü Gör</a>
-        </div>
-    </div>
-
-    <!-- ! Blog Section Başlangıç -->
-    <div class="section-blog">
-        <h3>Blog</h3>
-        <div class="section-blog-items">
-            
-            <div class="item blog-product">
-                <img class="resim" src="img/blog1.jpg" alt="">
-                <div class="box">
-                    <p>Türk Kahvesi İle İlgili 5 Kitap</p>
-                    <a href="#">Tamamını okumak için tıklayınız.</a>
-                </div>
+        <hr>
+         <!-- ! Bize Ulaşın -->
+         <div class="bize-ulasin">
+            <div class="ulasim">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Bize Ulaşın</h3>
+                <p>+(90) 531 117 17 17</p>
+                <p>info@coffepoint.com</p>
             </div>
-
-            <div class="item blog-product">
-                <img class="resim" src="img/blog1.jpg" alt="">
-                <div class="box">
-                    <p>Türk Kahvesi İle İlgili 5 Kitap</p>
-                    <a href="#">Tamamını okumak için tıklayınız.</a>
-                </div>
+            <div class="ulasim">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Bizi Ziyaret Edin </h3>
+                <p>+(90) 531 117 17 17</p>
+                <p>info@coffepoint.com</p>
             </div>
-
-            <div class="item blog-product">
-                <img class="resim" src="img/blog1.jpg" alt="">
-                <div class="box">
-                    <p>Türk Kahvesi İle İlgili 5 Kitap</p>
-                    <a href="#">Tamamını okumak için tıklayınız.</a>
-                </div>
+            <div class="ulasim">
+                <i class="fa-solid fa-clock"></i>
+                <h3>Çalışma Saatlerimiz</h3>
+                <p>+(90) 531 117 17 17</p>
+                <p>info@coffepoint.com</p>
             </div>
         </div>
-        <div class="blog-btn">
-            <a href="blog.html">Tümünü Gör</a>
-        </div>
-    </div>
-
-    <!-- ! Footer Section -->
+        <hr>
+                    <!-- ! Footer Section -->
     <footer>
         <div class="box left">
             <h3>Kurumsal</h3>
@@ -181,6 +147,7 @@
     </footer>
     <div class="designer">
         <p>Created By KodKoloni | All Rigths Reserved</p>
+    </div>
     </div>
   </body>
 </html>
