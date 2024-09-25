@@ -3,7 +3,7 @@
         display: block;
     }
 
-    .hero-image nav .nav-list{
+    nav .nav-list{
         display: none;
         position: absolute;
         z-index: 999;
@@ -19,5 +19,121 @@
     .menu-toggle:checked + .menu-icon + .nav-list{
         display: flex;
         max-height: 300px;
+    }
+}
+
+
+/* ! Footer */
+@media screen and (max-width:1000px){
+    footer .center{
+        order: -1;
+        width: 100%;
+    }
+
+    footer input{
+        width: 60%;
+    }
+}
+
+
+/* ! Anasayfa Main Alanı */
+@media screen and (max-width:700px){
+    .hero-image .main-text{
+        width: 90%;
+        left: 50%;
+    }
+}
+
+@media screen and (max-width:578px){
+    .hero-image .main-text h1{
+        font-size: 50px;
+    }
+
+    .hero-image .main-text h3{
+        font-size: 22px;
+    }
+}
+
+
+/* ! Hakkımızda Section */
+@media screen and (max-width:1000px){
+    .hak-content{
+        flex-direction: column;
+    }
+
+    .hak-left,
+    .hak-right{
+        width: 100%;
+    }
+}
+
+
+/* ! Blog Section */
+@media screen and (max-width:1150px){
+    .section-blog-wrapper{
+        padding-inline: 3%;
+    }
+}
+
+@media screen and (max-width:980px){
+    .section-blog-wrapper{
+        padding-inline: 1%;
+    }
+
+    .item{
+        width: 250px;
+        height: 300px;
+    }
+}
+
+
+/* ! İletişim Section */
+@media screen and (max-width:730px){
+    .iletisim-content{
+        flex-direction: column;
+    }
+
+    .iletisim-content .iletisim-left,
+    .iletisim-content .iletisim-right{
+        width: 100%;
+    }
+}
+
+
+/* ! Menü Section */
+@media screen and (max-width:980px){
+    .menu-section{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:650px){
+    .urun{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .urun .icecek-left{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .urun .tatli-right{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .ayrac{
+        display: none;
+    }
+
+    .menu-section .yazi{
+        bottom: 50px;
+    }
+
+    .slider-content img{
+        width: 500px;
+        height: 200px;
+        border: 1px solid white;
     }
 }
